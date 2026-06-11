@@ -6,11 +6,12 @@ function aumentarFonte() {
 }
 
 function diminuirFonte() {
-    tamanhoFonte -= 2;
-
-    if (tamanhoFonte < 12) {
-        tamanhoFonte = 12;
+    if (tamanhoFonte > 12) {
+        tamanhoFonte -= 2;
+        document.body.style.fontSize = tamanhoFonte + "px";
     }
+}
 
-    document.body.style.fontSize = tamanhoFonte + "px";
+function alternarContraste() {
+    document.body.classList.toggle("alto-contraste");
 }
