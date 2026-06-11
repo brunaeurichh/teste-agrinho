@@ -204,3 +204,33 @@ footer{
     padding: 25px;
     margin-top: 20px;
 }
+/* Modo Alto Contraste */
+
+.alto-contraste{
+    background: black !important;
+    color: rgb(98, 255, 0) !important;
+}
+
+.alto-contraste nav{
+    background: black !important;
+}
+
+.alto-contraste .card,
+.alto-contraste .numero{
+    background: #222 !important;
+    color: rgb(36, 215, 126) !important;
+    border: 2px solid rgb(54, 228, 31);
+}
+
+.alto-contraste footer{
+    background: black !important;
+    color: rgb(102, 255, 0) !important;
+}
+
+.alto-contraste h1,
+.alto-contraste h2,
+.alto-contraste h3,
+.alto-contraste p,
+.alto-contraste a{
+    color: rgb(34, 255, 0) !important;
+}
