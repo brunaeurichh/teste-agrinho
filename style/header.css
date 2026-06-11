@@ -1,0 +1,20 @@
+header{
+    width: 100%;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* Deixa o menu fixo no topo */
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Espaçamento do banner */
+.banner{
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
