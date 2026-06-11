@@ -39,30 +39,20 @@ nav a:hover{
     color: #c8f7c5;
 }
 
-/* BANNER */
-
 .banner{
     text-align: center;
     color: white;
     padding: 100px 20px;
 
-    background: linear-gradient(
+    background:
+    linear-gradient(
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     ),
-    url("../img/TRATOR.jpg");
+    url("../img/trator.jpg");
 
     background-size: cover;
     background-position: center;
-}
-
-.banner h1{
-    font-size: 3rem;
-    margin-bottom: 15px;
-}
-
-.banner p{
-    font-size: 1.2rem;
 }
 
 /* ACESSIBILIDADE */
